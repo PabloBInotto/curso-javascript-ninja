@@ -76,18 +76,14 @@ Crie uma função com as seguintes características:
 function recebe_tres(x, y, z){
     if (typeof x === "number" && isNaN(y) && isNaN(z)) {
         console.log("x = ", x)
-    } else if (typeof y === "number" && isNaN(z) && isNaN(x)) {
-        console.log("y = ",y)
-    } else if (typeof z === "number" && isNaN(x) && isNaN(y)) {
-        console.log("z = ",z)
     } else if (typeof x === "number" && typeof y === "number" && isNaN(z)) {
         console.log("x + y = ", x + y)
     } else if (typeof x === "number" && typeof y === "number" && typeof z === "number"){
-        console.log("x + y + z = ", x + y + z)
+        console.log("( x + y ) / z = ", ( x + y ) / z)
     } else if ( !x &&  !y &&  !z){
-        console.log("false");
+        console.log(false);
     } else {
-        console.log("null");
+        console.log(null);
     } 
 }
 
