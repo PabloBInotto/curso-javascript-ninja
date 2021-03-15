@@ -112,3 +112,5 @@ a frase:
 "O livro [NOME_DO_LIVRO] foi publicado pela editora [NOME_DA_EDITORA]."
 */
 console.log(  "O livro "+book().AlienWare.Nome+" foi publicado pela editora "+book().AlienWare.editora+"." )
+
+// challenge 05
